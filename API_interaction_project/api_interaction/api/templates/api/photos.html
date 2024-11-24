@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Photo List</title>
+</head>
+<body>
+    <h1>First 10 Photos</h1>
+    <ul>
+        {% for photo in photos %}
+            <li>
+                <h3>{{ photo.title }}</h3>
+                <img src="{{ photo.thumbnailUrl }}" alt="Photo {{ forloop.counter }}">
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
