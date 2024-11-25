@@ -78,8 +78,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'apidb',
-        'USER': 'root',
-        'PASSWORD': 'S3xm@n85',
+        'USER': '',         # input your db username
+        'PASSWORD': '',     # input your db password
         'HOST': 'localhost',
         'PORT': '3306',
     }
